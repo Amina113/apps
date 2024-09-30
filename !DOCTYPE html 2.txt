@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-55HC00947C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-55HC00947C');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaman - новостной портал Казахстана</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        article {
+            background: #fff;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px 0;
+            background: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zaman - новостной портал Казахстана</h1>
+    <nav>
+        <a href="#politics">Политика</a>
+        <a href="#economy">Экономика</a>
+        <a href="#culture">Культура</a>
+        <a href="#sports">Спорт</a>
+    </nav>
+</header>
+
+<main>
+    <article id="politics">
+        <h2>Новости политики</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Политика">
+        <p>Сегодня в Алматы прошла пресс-конференция, посвященная важным изменениям в законодательстве...</p>
+    </article>
+
+    <article id="economy">
+        <h2>Экономические новинки</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Экономика">
+        <p>Курс тенге продолжает укрепляться по отношению к доллару на фоне роста нефтяных цен...</p>
+    </article>
+
+    <article id="culture">
+        <h2>Культурные события</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Культура">
+        <p>В этом месяце в Астане пройдет международный фестиваль искусств...</p>
+    </article>
+
+    <article id="sports">
+        <h2>Спортивные достижения</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Спорт">
+        <p>На Олимпийских играх в Токио казахстанские спортсмены завоевали несколько медалей...</p>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2023 Zaman - Все права защищены</p>
+</footer>
+
+</body>
+</html>
